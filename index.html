@@ -186,7 +186,7 @@ abstract.hide = function () {
             abstract.show = function () {
                 this._div.classList.remove("abstract");
                 this._div.classList.add("abstractUncollapsed");
-                this._div.innerHTML = 'Most of the region shows high dissection index in red indicating deep valley incision and high erosional activity, while small central and western blue patches show low dissection indicating flat, undissected terrain.';
+                this._div.innerHTML = 'Blue areas have high Dissection Index meaning deeply cut terrain with steep valleys and high erosion, while red areas have low Dissection Index meaning shallow, undissected terrain with gentle slopes and little erosion.';
         };
         abstract.addTo(map);
         var zoomControl = L.control.zoom({
